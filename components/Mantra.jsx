@@ -44,7 +44,7 @@ export const Mantra = () => {
           </h1>
           <div className="flex items-center md:flex my-4 w-full sm:w-[80%] py-4">
             <Link
-              href="/#projects"
+              href="/#aboutme"
             >
               <button className="px-8 py-2 mt-4 bg-[#5651e5] shadow-xl shadow-gray-400 text-white hover:bg-[#9996ef] hover:scale-105 ease-in duration-300 dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:shadow-none dark:hover:bg-[#2d3c50]">{userData.mantra.aboutMe}</button>
             </Link>
