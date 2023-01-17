@@ -42,10 +42,10 @@ export const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    if (theme === "light") {
-      setNavBg("#ecf0f3");
-    } else {
+    if (theme === "dark") {
       setNavBg("#1F2937");
+    } else {
+      setNavBg("#ecf0f3");
     }
   }, [theme]);
 
@@ -76,10 +76,10 @@ export const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:text-[#ffffff]">
-        {theme == "light" ? (
+        {theme == "dark" ? (
           <Link href="/#mantra">
             <Image
-              src={NavLogo}
+              src={NavDarkLogo}
               alt="Wen Hao Logo Image"
               width="150"
               height="50"
@@ -88,7 +88,7 @@ export const Navbar = () => {
         ) : (
           <Link href="/#mantra">
             <Image
-              src={NavDarkLogo}
+              src={NavLogo}
               alt="Wen Hao Logo Image"
               width="150"
               height="50"
@@ -221,10 +221,10 @@ export const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              {theme === "light" ? (
+              {theme === "dark" ? (
                 <Link href="/#mantra" onClick={() => setNav(false)}>
                   <Image
-                    src={NavLogo}
+                    src={NavDarkLogo}
                     width="60"
                     height="50"
                     alt="Wen Hao Logo Image"
@@ -233,7 +233,7 @@ export const Navbar = () => {
               ) : (
                 <Link href="/#mantra" onClick={() => setNav(false)}>
                   <Image
-                    src={NavDarkLogo}
+                    src={NavLogo}
                     width="60"
                     height="50"
                     alt="Wen Hao Logo Image"
