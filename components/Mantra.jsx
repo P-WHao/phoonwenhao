@@ -49,7 +49,7 @@ export const Mantra = () => {
               <button className="px-8 py-2 mt-4 bg-[#5651e5] shadow-xl shadow-gray-400 text-white hover:bg-[#9996ef] hover:scale-105 ease-in duration-300 dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:shadow-none dark:hover:bg-[#2d3c50]">{userData.mantra.aboutMe}</button>
             </Link>
 
-            <a href={"../public/assets/resume/wenhaoResume.pdf"} download
+            <a href="https://drive.google.com/file/d/1EsFwcoEgGQFIxxPnaSCiu5sH6P4tyaSj/view?usp=share_link"
             >
               <button className="ml-10 px-8 py-2 mt-4 bg-[#5651e5] shadow-xl shadow-gray-400 text-white hover:bg-[#9996ef] hover:scale-105 ease-in duration-300 dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:shadow-none dark:hover:bg-[#2d3c50]">{userData.mantra.resume}</button>
             </a>
