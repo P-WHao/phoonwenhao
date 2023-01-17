@@ -17,9 +17,9 @@ import NavDarkLogo from "../public/assets/navLogoDarkWenHao.png";
 export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("dark");
+  const [navBg, setNavBg] = useState();
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme("dark");
+  const { theme, setTheme } = useTheme();
   const [showTopBtn, setShowTopBtn] = useState(false);
 
   const handleNav = () => {
@@ -44,7 +44,7 @@ export const Navbar = () => {
   useEffect(() => {
     if (theme === "dark") {
       setNavBg("#1F2937");
-    } else {
+    } else if(theme === "light") {
       setNavBg("#ecf0f3");
     }
   }, [theme]);
@@ -68,27 +68,26 @@ export const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 select-none"
-          : "fixed w-full h-20 z-[100] select-none"
+          ? "fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300 select-none bg-white dark:bg-gray-800"
+          : "fixed w-full h-20 z-[100] select-none bg-white dark:bg-gray-800"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 dark:text-[#ffffff]">
-        {theme == "dark" ? (
+        {theme == "light" ? (
           <Link href="/#mantra">
-            <Image
-              src={NavDarkLogo}
-              alt="Wen Hao Logo Image"
-              width="150"
-              height="50"
-            />
-          </Link>
+          <Image
+            src={NavLogo}
+            alt="Wen Hao Logo Image"
+            width="150"
+            height="50"
+          />
+        </Link>
         ) : (
           <Link href="/#mantra">
             <Image
-              src={NavLogo}
+              src={NavDarkLogo}
               alt="Wen Hao Logo Image"
               width="150"
               height="50"
@@ -134,7 +133,7 @@ export const Navbar = () => {
                 aria-label="Toggle Dark Mode"
                 type="button"
                 className="w-10 mt-1 h-10 p-3 rounded focus:outline-none"
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                onClick={() => setTheme(theme === "light" ? "dark" : "light")}
               >
                 {mounted && (
                   <svg
@@ -144,19 +143,19 @@ export const Navbar = () => {
                     stroke="currentColor"
                     className="w-8 h-8 text-yellow-500 dark:text-yellow-500"
                   >
-                    {theme === "dark" ? (
+                    {theme === "light" ? (
                       <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                      />
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                    />
                     ) : (
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth={2}
-                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                       />
                     )}
                   </svg>
@@ -212,28 +211,27 @@ export const Navbar = () => {
       >
         {/* Side Drawer Menu */}
         <div
-          style={{ backgroundColor: `${navBg}` }}
           className={
             nav
-              ? "fixed left-0 top-0 w-[80%] sm:w-[60%] md:w-[45%] h-screen pl-10 pr-10 pt-5 ease-in duration-500"
-              : "fixed left-[-100%] top-0 w-[80%] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[80%] sm:w-[60%] md:w-[45%] h-screen pl-10 pr-10 pt-5 ease-in duration-500 bg-white dark:bg-gray-800"
+              : "fixed left-[-100%] top-0 w-[80%] p-10 ease-in duration-500 bg-white dark:bg-gray-800"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              {theme === "dark" ? (
+              {theme === "light" ? (
                 <Link href="/#mantra" onClick={() => setNav(false)}>
-                  <Image
-                    src={NavDarkLogo}
-                    width="60"
-                    height="50"
-                    alt="Wen Hao Logo Image"
-                  />
-                </Link>
+                <Image
+                  src={NavLogo}
+                  width="60"
+                  height="50"
+                  alt="Wen Hao Logo Image"
+                />
+              </Link>
               ) : (
                 <Link href="/#mantra" onClick={() => setNav(false)}>
                   <Image
-                    src={NavLogo}
+                    src={NavDarkLogo}
                     width="60"
                     height="50"
                     alt="Wen Hao Logo Image"
@@ -310,7 +308,7 @@ export const Navbar = () => {
                   aria-label="Toggle Dark Mode"
                   type="button"
                   className="w-8 h-8 p-3 rounded focus:outline-none"
-                  onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                  onClick={() => setTheme(theme === "light" ? "dark" : "light")}
                 >
                   {mounted && (
                     <svg
@@ -320,19 +318,19 @@ export const Navbar = () => {
                       stroke="currentColor"
                       className="w-8 h-8 -ml-3 text-yellow-500 dark:text-yellow-500"
                     >
-                      {theme === "dark" ? (
+                      {theme === "light" ? (
                         <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                        />
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                      />
                       ) : (
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth={2}
-                          d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                          d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
                         />
                       )}
                     </svg>

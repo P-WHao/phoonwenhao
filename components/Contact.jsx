@@ -21,7 +21,7 @@ import userData from "../constants/data";
 
 export const Contact = () => {
   return (
-    <div id="contact" className="w-full pt-20 dark:bg-gray-900 select-none">
+    <div id="contact" className="bg-[#ecf0f3] text-[#1f2937] w-full pt-20 dark:bg-gray-900 select-none">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
         <p className="text-xl tracking-widest uppercase text-[#5651e5] dark:text-[#64ffda]">
           {userData.contact.title}

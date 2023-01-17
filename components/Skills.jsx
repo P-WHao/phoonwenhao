@@ -22,7 +22,7 @@ import AWS from '../public/assets/skills/aws.png'
 
 export const Skills = () => {
   return (
-    <div id='skills' className='w-full mb-40 pt-40 p-2 select-none'>
+    <div id='skills' className='bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-800 w-full pb-40 pt-40 p-2 select-none'>
       <div className='max-w-[1400px] mx-auto flex flex-col h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5] dark:text-[#64ffda]'>
         {userData.skills.title}

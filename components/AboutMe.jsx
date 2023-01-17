@@ -16,7 +16,7 @@ export const AboutMe = () => {
   return (
     <div
       id="aboutme"
-      className="w-full md:h-screen p-2 flex dark:bg-gray-900 items-center py-40 select-none"
+      className="bg-[#ecf0f3] text-[#1f2937] w-full md:h-screen p-2 flex dark:bg-gray-900 items-center py-40 select-none"
     >
       <div className="max-w-[1400px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">

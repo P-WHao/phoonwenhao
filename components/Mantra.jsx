@@ -19,7 +19,7 @@ export const Mantra = () => {
 	];
 
   return (
-    <div id="mantra" className="w-full md:h-screen p-2 flex items-center py-20 select-none">
+    <div id="mantra" className="bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-800 w-full md:h-screen p-2 flex items-center py-20 select-none">
       <div className="max-w-[1400px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <h1 className="py-4 text-gray-700 dark:text-[#ffffff]">{userData.mantra.title}</h1>

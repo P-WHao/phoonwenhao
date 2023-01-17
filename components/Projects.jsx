@@ -17,7 +17,7 @@ import userData from "../constants/data";
 
 export const Projects = () => {
   return (
-    <div id="projects" className="w-full pt-20 select-none">
+    <div id="projects" className="bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-800 w-full pt-20 select-none">
       <div className="max-w-[1400px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5] dark:text-[#64ffda]">
           {userData.projectsdata.title}
