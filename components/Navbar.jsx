@@ -42,10 +42,10 @@ export const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    if (theme === "dark") {
-      setNavBg("#1F2937");
-    } else if (theme === "light") {
+    if (theme === "light") {
       setNavBg("#ecf0f3");
+    } else {
+      setNavBg("#1F2937");
     }
   }, [theme]);
 
