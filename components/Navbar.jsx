@@ -354,7 +354,7 @@ export const Navbar = () => {
                     <FaLinkedinIn />
                   </div>
                 </a>
-                <a href="mailto:abc@example.com?subject = Let's Connect">
+                <a href="mailto:whphoongeneral@gmail.com?subject = Let's Connect">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                     <AiOutlineMail />
                   </div>

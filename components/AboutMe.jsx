@@ -49,7 +49,7 @@ export const AboutMe = () => {
                 <FaLinkedinIn />
               </div>
             </a>
-            <a href="mailto:abc@example.com?subject = Let's Connect">
+            <a href="mailto:whphoongeneral@gmail.com?subject = Let's Connect">
               <div className="ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <AiOutlineMail />
               </div>
