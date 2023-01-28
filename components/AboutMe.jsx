@@ -10,7 +10,7 @@ import {AiOutlineMail } from "react-icons/ai";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 //For Import Image
-import ProfileImage from "../public/assets/aboutWenHao.png";
+import ProfileImage from "../public/assets/aboutWenHaoLight.png";
 
 export const AboutMe = () => {
   return (

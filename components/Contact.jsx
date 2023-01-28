@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 //For Import Image
-import ContactImg from "../public/assets/aboutWenHao.png";
+import ContactImg from "../public/assets/aboutWenHaoLight.png";
 
 //For Import Icons
 import {
