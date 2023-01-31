@@ -25,7 +25,7 @@ export const Footer = () => {
           <div className="inline-flex flex-row sm:flex-row w-full max-w-full truncate">
             {data?.songUrl ? (
               <a
-                className="text-gray-800 dark:text-gray-200 font-medium max-w-max truncate"
+                className="dark:text-[#ffffff] font-medium max-w-max truncate"
                 href={data.songUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -33,14 +33,14 @@ export const Footer = () => {
                 {data.title}
               </a>
             ) : (
-              <p className="text-gray-800 dark:text-gray-200 font-medium">
+              <p className="dark:text-[#ffffff] font-medium">
                 Not Playing
               </p>
             )}
             <span className="mx-2 text-gray-500 dark:text-gray-300 hidden sm:block">
               {" – "}
             </span>
-            <p className="text-gray-500 dark:text-gray-300 max-w-max truncate">
+            <p className="dark:text-[#ffffff] max-w-max truncate">
               {data?.artist ?? "Spotify"}
             </p>
           </div>
