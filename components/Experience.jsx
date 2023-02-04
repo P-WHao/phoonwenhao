@@ -14,7 +14,7 @@ export const Experience = () => {
           {userData.experiencesText.mytimestones}
         </h2>
       </div>
-      <div className="grid grid-cols-1  max-w-3xl mx-auto pb-20">
+      <div className="grid grid-cols-1  max-w-5xl mx-auto pb-20">
         {/* Experience card */}
         {userData.experiences.map((exp, idx) => (
           <>
