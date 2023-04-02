@@ -58,6 +58,8 @@ const ExperienceCard = ({
       </h1>
       <a
         href={companyLink}
+        target="_blank"
+        rel="noreferrer"
         className="text-gray-500 dark:text-[#ffffff]"
       >
         <h1 className="font-semibold text-[#1f2937] text-xl dark:text-[#ffffff] incline-block relative transition-all duration-500 before:content-[''] before:absolute before:-bottom-1 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r dark:before:from-[#00C5A3] dark:before:to-[#64FFDA] before:from-[#5651e5] before:to-[#709dff] hover:before:w-full hover:before:opacity-100 ">

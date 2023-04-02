@@ -70,22 +70,30 @@ export const Contact = () => {
               <div>
                 {/* <p className="uppercase pt-8">Connect With Me</p> */}
                 <div className="flex items-center justify-between py-4">
-                  <a href="https://github.com/P-WHao">
+                  <a href="https://github.com/P-WHao"
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-110 ease-in duration-300">
                       <FaGithub />
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/in/p-whao/">
+                  <a href="https://www.linkedin.com/in/p-whao/"
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-110 ease-in duration-300">
                       <FaLinkedinIn />
                     </div>
                   </a>
-                  <a href="mailto:whphoongeneral@gmail.com?subject = Let's Connect">
+                  <a href="mailto:whphoongeneral@gmail.com?subject = Let's Connect"
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-110 ease-in duration-300">
                       <AiOutlineMail />
                     </div>
                   </a>
-                  <a href="https://www.facebook.com/phoon.wenhao/">
+                  <a href="https://www.facebook.com/phoon.wenhao/"
+                  target="_blank"
+                  rel="noreferrer">
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-110 ease-in duration-300">
                       <FaFacebook />
                     </div>
