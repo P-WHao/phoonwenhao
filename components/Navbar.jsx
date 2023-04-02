@@ -344,22 +344,26 @@ export const Navbar = () => {
                 {userData.navbar.letconnect}
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <a href="https://github.com/P-WHao">
+                <a href="https://github.com/P-WHao"
+                target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                     <FaGithub />
                   </div>
                 </a>
-                <a href="https://www.linkedin.com/in/p-whao/">
+                <a href="https://www.linkedin.com/in/p-whao/"
+                target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                     <FaLinkedinIn />
                   </div>
                 </a>
-                <a href="mailto:whphoongeneral@gmail.com?subject = Let's Connect">
+                <a href="mailto:whphoongeneral@gmail.com?subject = Let's Connect"
+                target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                     <AiOutlineMail />
                   </div>
                 </a>
-                <a href="https://www.facebook.com/phoon.wenhao/">
+                <a href="https://www.facebook.com/phoon.wenhao/"
+                target="_blank">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer dark:shadow-none dark:text-[#ffffff] dark:bg-transparent dark:border-2 dark:border-[#ffffff] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                     <FaFacebook />
                   </div>
