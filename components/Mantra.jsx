@@ -59,7 +59,7 @@ export const Mantra = () => {
             </Link>
 
             <a
-              href="https://drive.google.com/file/d/1EsFwcoEgGQFIxxPnaSCiu5sH6P4tyaSj/view?usp=share_link"
+              href="https://drive.google.com/file/d/1TaVbi5K-ymyS3_2s1LKI_dnNUNO5qTLg/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
