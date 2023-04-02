@@ -43,7 +43,7 @@ export const AboutMe = () => {
               </div>
             </a>
             <a href="https://www.linkedin.com/in/p-whao/" target="_blank" rel="noreferrer">
-              <div className="ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
+              <div className="ml-5 md:ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -51,12 +51,12 @@ export const AboutMe = () => {
               href="mailto:whphoongeneral@gmail.com?subject = Let's Connect"
               target="_blank" rel="noreferrer"
             >
-              <div className="ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
+              <div className="ml-5 md:ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <AiOutlineMail />
               </div>
             </a>
             <a href="https://www.facebook.com/phoon.wenhao/" target="_blank" rel="noreferrer">
-              <div className="ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
+              <div className="ml-5 md:ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <FaFacebook />
               </div>
             </a>

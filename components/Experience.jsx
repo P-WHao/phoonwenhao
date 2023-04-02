@@ -53,7 +53,7 @@ const ExperienceCard = ({
 }) => {
   return (
     <div className="relative experience-card border p-4 rounded-md shadow-xl bg-white dark:border-none dark:bg-[#1F2937] z-10 mx-4">
-      <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-[#1f2937] dark:text-[#64ffda] font-bold">
+      <h1 className="absolute -top-10 xl:-left-10 md:-top-10 text-4xl text-[#1f2937] dark:text-[#64ffda] font-bold">
         {year}
       </h1>
       <a
