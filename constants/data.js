@@ -136,7 +136,7 @@ const userData = {
     emailtitle: "Email: ",
     emailhaowen: "haowenphoon@gmail.com",
     phonenotitle: "Phone Number: ",
-    phonenoconfi: "+CONFIDENTIALS",
+    phonenoconfi: "+6017-891 0239",
     name: "Name",
     enteryourname: "Enter your name",
     phoneno: "Phone Number",
