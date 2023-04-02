@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,12 +7,29 @@ import userData from "../constants/data";
 
 //For Import Icon
 import { AiOutlineMail } from "react-icons/ai";
-import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 //For Import Image
 import ProfileImage from "../public/assets/aboutWenHaoLight.png";
 
 export const AboutMe = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handlePrevClick = () => {
+    setActiveIndex(activeIndex === 0 ? 3 : activeIndex - 1);
+  };
+
+  const handleNextClick = () => {
+    setActiveIndex(activeIndex === 3 ? 0 : activeIndex + 1);
+  };
+
+  const aboutMeText = [
+    userData.aboutMe.aboutmedescp,
+    userData.aboutMe.aboutmedescp1,
+    userData.aboutMe.aboutmedescp2,
+    userData.aboutMe.aboutmedescp3,
+  ];
+
   return (
     <div
       id="aboutme"
@@ -24,38 +41,58 @@ export const AboutMe = () => {
             {userData.aboutMe.title}
           </p>
           <h2 className="py-4 dark:text-[#ffffff]">{userData.aboutMe.descp}</h2>
-          <p className="py-2 text-gray-600 dark:text-[#ffffff]">
-            {userData.aboutMe.aboutmedescp}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-[#ffffff]">
-            {userData.aboutMe.aboutmedescp1}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-[#ffffff]">
-            {userData.aboutMe.aboutmedescp2}
-          </p>
-          <p className="py-2 text-gray-600 dark:text-[#ffffff]">
-            {userData.aboutMe.aboutmedescp3}
-          </p>
+          <div>
+            <p className="py-2 text-gray-600 dark:text-[#ffffff] text-justify leading-relaxed">
+              {aboutMeText[activeIndex]}
+            </p>
+            <div className="flex justify-end">
+              <button
+                className="p-4 bg-[#5651e5] hover:bg-[#9996ef] dark:text-[#ffffff] dark:bg-gray-900 dark:border-2 dark:border-[#ffffff] dark:shadow-none dark:hover:bg-[#2d3c50] text-gray-100 mt-4 mr-4"
+                onClick={handlePrevClick}
+              >
+                <FaChevronLeft />
+              </button>
+              <button
+                className="p-4 bg-[#5651e5] hover:bg-[#9996ef] dark:text-[#ffffff] dark:bg-gray-900 dark:border-2 dark:border-[#ffffff] dark:shadow-none dark:hover:bg-[#2d3c50] text-gray-100 mt-4"
+                onClick={handleNextClick}
+              >
+                <FaChevronRight />
+              </button>
+            </div>
+          </div>
           <div className="flex items-center md:flex my-4 w-full sm:w-[80%] py-4 text-[#000000] dark:text-[#000000]">
-            <a href="https://github.com/P-WHao" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/P-WHao"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <FaGithub />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/p-whao/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/p-whao/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="ml-5 md:ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <FaLinkedinIn />
               </div>
             </a>
             <a
               href="mailto:whphoongeneral@gmail.com?subject = Let's Connect"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               <div className="ml-5 md:ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <AiOutlineMail />
               </div>
             </a>
-            <a href="https://www.facebook.com/phoon.wenhao/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.facebook.com/phoon.wenhao/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="ml-5 md:ml-10 rounded-full shadow-lg shadow-gray-400 p-6 border-2 border-[#5651e5] cursor-pointer dark:shadow-none dark:text-[#64ffda] dark:bg-transparent dark:border-2 dark:border-[#64ffda] dark:hover:bg-[#2d3c50] hover:scale-105 ease-in">
                 <FaFacebook />
               </div>
