@@ -17,13 +17,15 @@ const ProjectItem = ({ title, backgroundImg, githubUrl, demoUrl, tech }) => {
         <p className="pb-4 pt-2 text-white dark:text-black text-center">{tech}</p>
         <div className="flex items-center w-full ">
           <Link href={githubUrl}
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
             <p className="text-center py-3 rounded-lg w-20 bg-white text-gray-700 font-bold text-lg cursor-pointer">
               Github
             </p>
           </Link>
           <Link href={demoUrl}
-          target="_blank">
+          target="_blank"
+          rel="noreferrer">
             <button disabled className="ml-10 text-center py-3 w-20 rounded-lg bg-white text-gray-700 font-bold text-lg" style={{ textTransform: "none" }}>
               Demo
             </button>

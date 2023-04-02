@@ -57,6 +57,7 @@ export const Footer = () => {
             <a
               href="https://www.facebook.com/phoon.wenhao/"
               target="_blank"
+              rel="noreferrer"
               className="text-base font-normal text-gray-600 hover:text-[#5651e5] dark:text-white dark:hover:text-[#64ffda] hover:scale-105"
             >
               <svg
@@ -74,6 +75,7 @@ export const Footer = () => {
             <a
               href="https://www.instagram.com/wh_phoon/"
               target="_blank"
+              rel="noreferrer"
               className="text-base font-normal text-gray-600 hover:text-[#5651e5] dark:text-white dark:hover:text-[#64ffda] hover:scale-105"
             >
               <svg
@@ -90,6 +92,7 @@ export const Footer = () => {
             <a
               href="https://twitter.com/wh_phoon"
               target="_blank"
+              rel="noreferrer"
               className="text-base font-normal text-gray-600 hover:text-[#5651e5] dark:text-white dark:hover:text-[#64ffda] hover:scale-105"
             >
               <svg
@@ -106,6 +109,7 @@ export const Footer = () => {
             <a
               href="https://www.youtube.com/channel/UCI1aMRWURiw-JACG0eHTEaA"
               target="_blank"
+              rel="noreferrer"
               className="text-base font-normal text-gray-600 hover:text-[#5651e5] dark:text-white dark:hover:text-[#64ffda] hover:scale-105"
             >
               <svg
@@ -143,6 +147,7 @@ export const Footer = () => {
                   className="dark:hover:bg-[#64ffda] dark:hover:text-black hover:bg-[#5651e5] rounded-md px-2 py-1  hover:text-gray-50"
                   href="https://www.facebook.com/phoon.wenhao/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   {/* Need to do a blog website */}
                   {userData.footer.wenhao}
