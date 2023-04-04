@@ -128,9 +128,9 @@ const userData = {
     title: "----- Contact-----",
     getintouch: "Get In Touch",
     wenhao: "Wen Hao",
-    softwaredeveloper: "Software Developer",
-    contactdesc:
-      "I am available for freelance or full-time positions. Contact me and let's talk.",
+    softwaredeveloper: "Fresh Graduate Software Engineer",
+    contactdesc: "I am a fresh graduate software engineer actively seeking job opportunities in the field.",
+    contactmeme:  "Contact me and let's talk.",
     location: "Location: ",
     klmalaysia: "Kuala Lumpur - Malaysia",
     emailtitle: "Email: ",

@@ -43,7 +43,8 @@ export const Contact = () => {
               <div>
                 <h2 className="py-2 pt-5 dark:text-[#ffffff]">{userData.contact.wenhao}</h2>
                 <p className="dark:text-[#ffffff]">{userData.contact.softwaredeveloper}</p>
-                <p className="py-4 dark:text-[#ffffff]">{userData.contact.contactdesc}</p>
+                <p className="py-2 dark:text-[#ffffff]">{userData.contact.contactdesc}</p>
+                <p className="py-2 dark:text-[#ffffff]">{userData.contact.contactmeme}👋🏻👋🏻</p>
               </div>
 
               <ul className={`${classes.contact__info__list}`}>
