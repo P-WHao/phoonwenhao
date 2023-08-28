@@ -110,7 +110,7 @@ const userData = {
       year: "Feb 2023 - Jul 2023",
       companyLink: "https://www.1utama.com.my/",
       desc: "- Creating and maintaining variety of web applications projects.",
-      desc1: "- Working on APIs, databases, frontend design and backend.",
+      desc1: "- Working on APIs, database design, frontend, backend and deployment.",
       desc2:
         "- Gained skills such as adaptability, problem solving, teamwork, communicating, dealing with deadlines and producing quality code.",
     },
