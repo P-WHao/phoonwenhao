@@ -43,7 +43,7 @@ export const Projects = () => {
             backgroundImg={robotImg}
             githubUrl="https://github.com/P-WHao"
             demoUrl="/404"
-            tech="OpenGL"
+            tech="OpenGL (C++)"
           />
           <ProjectItem
             title="Ez Charge"
