@@ -69,48 +69,13 @@ const userData = {
   // My Experiences Page Timestones List
   experiences: [
     {
-      title: "Pursue Study in Tunku Abdul Rahman University College (TARUC)",
-      company:
-        "Major: Diploma in Science (Computer Science and Computer Mathematics)",
-      year: "May 2019",
-      companyLink: "https://www.tarc.edu.my/",
-      desc: "- Courses included System Analysis and Design, MySQL and Object-Oriented Programming.",
-    },
-    {
-      title: "Intern in Bandar Utama City Centre Sdn Bhd",
-      company: "Role: Junior IT Support Intern",
-      year: "Oct 2020 - Dec 2020",
-      companyLink: "https://www.1utama.com.my/",
-      desc: "- Assisted senior IT executive in commissioning, upgrades and repairs terminals.",
-      desc1: "- Coding for Inventory Management System.",
-      desc2:
-        "- Gained skills such as problem solving, communicating and dealing with deadlines.",
-    },
-    {
-      title: "Graduated from Tunku Abdul Rahman University College (TARUC)",
-      company:
-        "Graduated from Diploma in Science (Computer Science and Computer Mathematics)",
-      year: "May 2021",
-      companyLink: "https://www.tarc.edu.my/",
-      desc: "- Obtained CGPA of 3.87 points.",
-      desc1: "- Graduated with Distinction.",
-    },
-    {
       title:
-        "Continue to Pursue Study in Tunku Abdul Rahman University College (TARUC)",
-      company:
-        "Major: Bachelor of Computer Science (Honours) in Software Engineering",
-      year: "May 2021",
-      companyLink: "https://www.tarc.edu.my/",
-      desc: "- Courses included Data Structures and Algorithms, Software Engineering, System Design Architecture, Blockchain Application Development and Mobile Application Development.",
-    },
-    {
-      title: "Intern in Bandar Utama City Centre Sdn Bhd",
+        "Full Time Programmer in Bandar Utama City Centre Sdn Bhd",
       company: "Role: Software Developer",
-      year: "Feb 2023 - Jul 2023",
+      year: "Jul 2023 - Present",
       companyLink: "https://www.1utama.com.my/",
-      desc: "- Creating and maintaining variety of web applications projects.",
-      desc1: "- Working on APIs, database design, frontend, backend and deployment.",
+      desc: "- Creating and maintaining variety of in-house web applications projects.",
+      desc1: "- Working on APIs, database design, frontend, backend, configuring SSL and deployment.",
       desc2:
         "- Gained skills such as adaptability, problem solving, teamwork, communicating, dealing with deadlines and producing quality code.",
     },
@@ -123,6 +88,52 @@ const userData = {
       desc: "- Obtained CGPA of 3.91 points.",
       desc1: "- Graduated with Distinction.",
     },
+    {
+      title: "Intern in Bandar Utama City Centre Sdn Bhd",
+      company: "Role: Software Developer",
+      year: "Feb 2023 - Jul 2023",
+      companyLink: "https://www.1utama.com.my/",
+      desc: "- Creating and maintaining variety of web applications projects.",
+      desc1: "- Working on APIs, database design, frontend and backend.",
+      desc2:
+        "- Gained skills such as adaptability, problem solving, teamwork, communicating, dealing with deadlines and producing quality code.",
+    },
+    {
+      title:
+        "Continue to Pursue Study in Tunku Abdul Rahman University College (TARUC)",
+      company:
+        "Major: Bachelor of Computer Science (Honours) in Software Engineering",
+      year: "May 2021",
+      companyLink: "https://www.tarc.edu.my/",
+      desc: "- Courses included Data Structures and Algorithms, Software Engineering, System Design Architecture, Blockchain Application Development and Mobile Application Development.",
+    },
+    {
+      title: "Graduated from Tunku Abdul Rahman University College (TARUC)",
+      company:
+        "Graduated from Diploma in Science (Computer Science and Computer Mathematics)",
+      year: "May 2021",
+      companyLink: "https://www.tarc.edu.my/",
+      desc: "- Obtained CGPA of 3.87 points.",
+      desc1: "- Graduated with Distinction.",
+    },
+    {
+      title: "Intern in Bandar Utama City Centre Sdn Bhd",
+      company: "Role: Junior IT Support Intern",
+      year: "Oct 2020 - Dec 2020",
+      companyLink: "https://www.1utama.com.my/",
+      desc: "- Assisted senior IT executive in commissioning, upgrades and repairs terminals.",
+      desc1: "- Coding for Inventory Management System.",
+      desc2:
+        "- Gained skills such as problem solving, communicating and dealing with deadlines.",
+    },
+    {
+      title: "Pursue Study in Tunku Abdul Rahman University College (TARUC)",
+      company:
+        "Major: Diploma in Science (Computer Science and Computer Mathematics)",
+      year: "May 2019",
+      companyLink: "https://www.tarc.edu.my/",
+      desc: "- Courses included System Analysis and Design, MySQL and Object-Oriented Programming.",
+    }
   ],
 
   // My Experiences Page
