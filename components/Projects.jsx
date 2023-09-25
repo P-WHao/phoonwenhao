@@ -39,7 +39,7 @@ export const Projects = () => {
             tech="Assembly Language (ASM)"
           />
           <ProjectItem
-            title="Robot"
+            title="3D Robot"
             backgroundImg={robotImg}
             githubUrl="https://github.com/P-WHao"
             demoUrl="/404"
