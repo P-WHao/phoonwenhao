@@ -74,8 +74,8 @@ const userData = {
       company: "Role: Software Developer",
       year: "Jul 2023 - Present",
       companyLink: "https://www.1utama.com.my/",
-      desc: "- Creating and maintaining variety of in-house web applications projects.",
-      desc1: "- Working on APIs, database design, frontend, backend, configuring SSL and deployment.",
+      desc: "- Creating and maintaining a variety of in-house web applications projects.",
+      desc1: "- Working on Frontend, Backend, APIs, Database Design, SSL Configuration and Deployment.",
       desc2:
         "- Gained skills such as adaptability, problem solving, teamwork, communicating, dealing with deadlines and producing quality code.",
     },
@@ -93,10 +93,10 @@ const userData = {
       company: "Role: Software Developer",
       year: "Feb 2023 - Jul 2023",
       companyLink: "https://www.1utama.com.my/",
-      desc: "- Creating and maintaining variety of web applications projects.",
-      desc1: "- Working on APIs, database design, frontend and backend.",
+      desc: "- Assisting and maintaining a variety of web application projects.",
+      desc1: "- Working on bug fix, user interface design and coding.",
       desc2:
-        "- Gained skills such as adaptability, problem solving, teamwork, communicating, dealing with deadlines and producing quality code.",
+        "- Gained skills such as adaptability, problem solving, communicating and dealing with deadlines.",
     },
     {
       title:
