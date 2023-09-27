@@ -70,7 +70,7 @@ const userData = {
   experiences: [
     {
       title:
-        "Full Time Programmer in Bandar Utama City Centre Sdn Bhd",
+        "Full Time Developer in Bandar Utama City Centre Sdn Bhd",
       company: "Role: Software Developer",
       year: "Jul 2023 - Present",
       companyLink: "https://www.1utama.com.my/",
