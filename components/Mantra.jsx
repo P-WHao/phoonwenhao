@@ -16,6 +16,7 @@ export const Mantra = () => {
     "Front-End Developer",
     "Back-End Developer",
     "Full-Stack Developer",
+    "DevOps Engineer",
   ];
 
   return (

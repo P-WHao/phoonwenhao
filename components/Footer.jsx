@@ -126,7 +126,6 @@ export const Footer = () => {
             </a>
           </div>
           <div className="text-center dark:text-[#ffffff]">
-            {/* Support me by keeping this in the footer, please. :) */}
             <div>
               {userData.footer.developedanddesigned}
               <svg
