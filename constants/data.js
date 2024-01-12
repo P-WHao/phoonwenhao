@@ -165,7 +165,7 @@ const userData = {
 
   // Footer
   footer: {
-    copyright: "© Copyright 2023. All Rights Reserved.",
+    copyright: "© Copyright 2024. All Rights Reserved.",
     developedanddesigned: "Developed and Designed with ",
     by: " by",
     wenhao: "Wen Hao",
